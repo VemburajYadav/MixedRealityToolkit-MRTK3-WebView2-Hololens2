@@ -23,7 +23,7 @@
       "hash": "7747a48d5e994db800b4c60a0a8b95a5ae2ce39f"
     },
     "com.microsoft.mixedreality.openxr": {
-      "version": "file:../../../ExternalDependencies/com.microsoft.mixedreality.openxr-1.10.0.tgz",
+      "version": "file:MixedReality/ExternalDependencies/com.microsoft.mixedreality.openxr-1.10.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -54,7 +54,7 @@
       "hash": "4497602bcf9d4e7a175cf9d2a2bee9f086a3129c"
     },
     "com.microsoft.mrtk.tts.windows": {
-      "version": "file:../../../ExternalDependencies/com.microsoft.mrtk.tts.windows-1.0.4.tgz",
+      "version": "file:MixedReality/ExternalDependencies/com.microsoft.mrtk.tts.windows-1.0.4.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}
@@ -347,7 +347,7 @@
       "url": "https://packages.unity.com"
     },
     "org.mixedrealitytoolkit.accessibility": {
-      "version": "file:../../../org.mixedrealitytoolkit.accessibility",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.accessibility",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -357,7 +357,7 @@
       }
     },
     "org.mixedrealitytoolkit.audio": {
-      "version": "file:../../../org.mixedrealitytoolkit.audio",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.audio",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -365,7 +365,7 @@
       }
     },
     "org.mixedrealitytoolkit.core": {
-      "version": "file:../../../org.mixedrealitytoolkit.core",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.core",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -375,7 +375,7 @@
       }
     },
     "org.mixedrealitytoolkit.data": {
-      "version": "file:../../../org.mixedrealitytoolkit.data",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.data",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -385,7 +385,7 @@
       }
     },
     "org.mixedrealitytoolkit.diagnostics": {
-      "version": "file:../../../org.mixedrealitytoolkit.diagnostics",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.diagnostics",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -394,7 +394,7 @@
       }
     },
     "org.mixedrealitytoolkit.extendedassets": {
-      "version": "file:../../../org.mixedrealitytoolkit.extendedassets",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.extendedassets",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -402,7 +402,7 @@
       }
     },
     "org.mixedrealitytoolkit.input": {
-      "version": "file:../../../org.mixedrealitytoolkit.input",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.input",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -416,7 +416,7 @@
       }
     },
     "org.mixedrealitytoolkit.spatialmanipulation": {
-      "version": "file:../../../org.mixedrealitytoolkit.spatialmanipulation",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.spatialmanipulation",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -427,7 +427,7 @@
       }
     },
     "org.mixedrealitytoolkit.standardassets": {
-      "version": "file:../../../org.mixedrealitytoolkit.standardassets",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.standardassets",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -435,7 +435,7 @@
       }
     },
     "org.mixedrealitytoolkit.tools": {
-      "version": "file:../../../org.mixedrealitytoolkit.tools",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.tools",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -443,7 +443,7 @@
       }
     },
     "org.mixedrealitytoolkit.uxcomponents": {
-      "version": "file:../../../org.mixedrealitytoolkit.uxcomponents",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.uxcomponents",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -455,7 +455,7 @@
       }
     },
     "org.mixedrealitytoolkit.uxcomponents.noncanvas": {
-      "version": "file:../../../org.mixedrealitytoolkit.uxcomponents.noncanvas",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.uxcomponents.noncanvas",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -465,7 +465,7 @@
       }
     },
     "org.mixedrealitytoolkit.uxcore": {
-      "version": "file:../../../org.mixedrealitytoolkit.uxcore",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.uxcore",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -477,7 +477,7 @@
       }
     },
     "org.mixedrealitytoolkit.windowsspeech": {
-      "version": "file:../../../org.mixedrealitytoolkit.windowsspeech",
+      "version": "file:MixedReality/org.mixedrealitytoolkit.windowsspeech",
       "depth": 0,
       "source": "local",
       "dependencies": {
