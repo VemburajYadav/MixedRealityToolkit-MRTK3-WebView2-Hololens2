@@ -1,4 +1,4 @@
 Library/
-*/*.log
-Temp/
-Logs/
+**/*.log
+**/Temp/
+**/Logs/
