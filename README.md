@@ -1,6 +1,6 @@
 ﻿# ✨ MixedRealityToolkit-MRTK3-WebView2-Hololens2
 
-This Unity project demonstrates advanced hand gesture-based interactions for navigating webpages in **WebView2**, designed specifically for **HoloLens 2** using **MRTK3** and **XR Interaction Toolkit**. Also, refer to the officiali documentation on [Getting started with WebView2 in HoloLens 2 Unity apps](https://learn.microsoft.com/en-us/microsoft-edge/webview2/get-started/hololens2) 
+This Unity project demonstrates advanced hand gesture-based interactions for navigating webpages in **WebView2**, designed specifically for **HoloLens2** using **MRTK3** and **XR Interaction Toolkit**. Also, refer to the officiali documentation on [Getting started with WebView2 in HoloLens 2 Unity apps](https://learn.microsoft.com/en-us/microsoft-edge/webview2/get-started/hololens2) 
 
 While the default WebView2 prefab supports basic browser controls (like back, forward, and URL input), this project enhances usability with **natural hand gestures** — making browsing in mixed reality more intuitive and immersive.
 
@@ -74,9 +74,10 @@ To enable advanced interactions, add the following components to the WebView Gam
 ```
 ├── Assets
 │   ├── Scripts
-│   ├── ├── WebviewInteractables
-│   ├── ├── ├── FarRaySwipeInteracatable.cs
-│   ├── ├── ├── ClickInteracatable.cs
+│   ├── ├── HandGestureInteraction
+│   ├── ├── ├── WebViewInteractables
+│   ├── ├── ├── ├── FarRaySwipeInteracatable.cs
+│   ├── ├── ├── ├── ClickInteracatable.cs
 
 ```
 
@@ -97,7 +98,7 @@ To register hand gestures as interactions, ensure your WebView GameObject also i
 | Click webpage    | Touch / near-poke          | Near interaction       |
 | Scroll page      | Hand swipe (up/down)       | Far-ray gesture        |
 
-These interactions are designed with natural HoloLens 2 usage in mind and are fully compatible with **hand-tracking** via **OpenXR** and **MRTK3**'s XR Interactables.
+These interactions are designed with natural HoloLens2 usage in mind and are fully compatible with **hand-tracking** via **OpenXR** and **MRTK3**'s XR Interactables.
 
 ---
 
