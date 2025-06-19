@@ -21,8 +21,8 @@ While the default WebView2 prefab supports basic browser controls (like back, fo
 
 ## 🎬 Demo Videos
 
-📽 **General Demo**  
-Shows all interaction types while navigating a webpage in MR.
+📽 [**General Demo – WebView2 Interactions in MR**](https://drive.google.com/file/d/1AlJrVqLrV5DMvV4bO2Ha2ak6nxNUejKp/view?usp=sharing)  
+Demonstrates all interaction types while navigating a webpage in mixed reality.
 
 📽 **Click Interaction Showcase**  
 Focuses specifically on the two available modes of clicking:
