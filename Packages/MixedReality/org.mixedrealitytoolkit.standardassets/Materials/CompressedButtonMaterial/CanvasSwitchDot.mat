@@ -9,9 +9,12 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: CanvasSwitchDot
   m_Shader: {fileID: 4800000, guid: 29b058829dc4dbf449bc59c038dfa631, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _EDGE_ONLY_
   - _GRADIENT_DISABLED_
+  - _UI_CLIP_RECT_ROUNDED
   m_InvalidKeywords:
   - _BLOB_ENABLE_2__ON
   - _BLOB_ENABLE__ON
@@ -29,6 +32,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -130,6 +134,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DirectionalLight: 0
     - _DstBlend: 10
+    - _DstBlendAlpha: 1
     - _EdgeSmoothingMode: 1
     - _EdgeSmoothingValue: 0.03
     - _Edge_Only_: 1
@@ -189,7 +194,9 @@ Material:
     - _NearLightFade: 0
     - _NearPlaneFade: 0
     - _NormalMapScale: 1
+    - _Occluded_Intensity_: 1
     - _OcclusionStrength: 1
+    - _Orthographic_Distance_: 400
     - _Parallax: 0.02
     - _Power_: 1
     - _ProximityLight: 0
@@ -211,12 +218,14 @@ Material:
     - _Sharpness_: 0
     - _Shininess_: 10
     - _Sky_Enabled_: 1
+    - _Smooth_Edges_: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Specular_: 0
     - _SphericalHarmonics: 0
     - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
     - _Stencil: 0
     - _StencilComp: 0
     - _StencilComparison: 0

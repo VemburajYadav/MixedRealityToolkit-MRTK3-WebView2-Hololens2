@@ -9,6 +9,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 using SliderEvent = UnityEngine.Events.UnityEvent<MixedReality.Toolkit.UX.SliderEventData>;
 
+using TMPro;
+
 namespace MixedReality.Toolkit.UX
 {
     /// <summary>
@@ -18,6 +20,8 @@ namespace MixedReality.Toolkit.UX
     [AddComponentMenu("MRTK/UX/Slider")]
     public class Slider : StatefulInteractable, ISnapInteractable
     {
+        public TMP_Text epochText;
+
         #region Serialized Fields and Public Properties
 
         [Header("Slider Options")]
@@ -374,6 +378,8 @@ namespace MixedReality.Toolkit.UX
 
             var unsnappedValue = normalizedValue * (MaxValue - MinValue) + MinValue;
             Value = useSliderStepDivisions ? SnapSliderToStepPositions(unsnappedValue) : unsnappedValue;
+
+            epochText.text = Value.ToString("F4");
         }
 
         #endregion

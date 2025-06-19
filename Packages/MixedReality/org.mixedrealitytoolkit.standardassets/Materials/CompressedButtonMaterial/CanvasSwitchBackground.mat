@@ -9,12 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: CanvasSwitchBackground
   m_Shader: {fileID: 4800000, guid: df5380aa6ab293c4fafbb942ed5da93f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHABLEND_ON
   - _EDGE_SMOOTHING_AUTOMATIC
   - _GRADIENT_LINEAR
   - _ROUND_CORNERS
   - _SPECULAR_HIGHLIGHTS
+  - _UI_CLIP_RECT_ROUNDED
   - _VERTEX_COLORS
   m_InvalidKeywords:
   - _BLOB_ENABLE_2__ON
@@ -37,6 +40,7 @@ Material:
   stringTagMap:
     RenderType: Fade
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -61,6 +65,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -119,6 +127,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DirectionalLight: 0
     - _DstBlend: 10
+    - _DstBlendAlpha: 1
     - _EdgeSmoothingMode: 1
     - _EdgeSmoothingValue: 0.03
     - _Edge_Only_: 0
@@ -168,6 +177,7 @@ Material:
     - _Metallic: 0
     - _MipmapBias: -2
     - _Mode: 2
+    - _NPR: 0
     - _NearLightFade: 0
     - _NearPlaneFade: 0
     - _NormalMapScale: 1
@@ -193,6 +203,7 @@ Material:
     - _SpecularHighlights: 1
     - _SphericalHarmonics: 0
     - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
     - _Stencil: 0
     - _StencilComp: 0
     - _StencilComparison: 0
@@ -206,6 +217,7 @@ Material:
     - _UseWorldScale: 0
     - _VertexColors: 1
     - _VertexExtrusion: 0
+    - _VertexExtrusionConstantWidth: 0
     - _VertexExtrusionSmoothNormals: 0
     - _VertexExtrusionValue: 0
     - _Vertical_Offset_: 0
@@ -228,6 +240,8 @@ Material:
     - _EnvironmentColorX: {r: 1, g: 0, b: 0, a: 1}
     - _EnvironmentColorY: {r: 0, g: 1, b: 0, a: 1}
     - _EnvironmentColorZ: {r: 0, g: 0, b: 1, a: 1}
+    - _GradientAlpha: {r: 1, g: 1, b: 1, a: 1}
+    - _GradientAlphaTime: {r: 0, g: 0, b: 0, a: 0}
     - _GradientColor0: {r: 0.090196066, g: 0.2192921, b: 0.42352942, a: 0}
     - _GradientColor1: {r: 0.07450981, g: 0.09592205, b: 0.34901962, a: 1}
     - _GradientColor2: {r: 0.07450981, g: 0.09592205, b: 0.34901962, a: 1}

@@ -68,10 +68,18 @@ namespace MRTKExtensions.Keyboard
             var button = GetComponent<Button>();
             
             interactable = gameObject.EnsureComponent<StatefulInteractable>();
+
+            interactable.DisableInteractorType(typeof(IGrabInteractor));
+            interactable.DisableInteractorType(typeof(IGazeInteractor));
+            interactable.DisableInteractorType(typeof(IGazePinchInteractor));
+
             interactable.firstSelectEntered.AddListener(selectArgs =>
             {
+                /***
                 if (selectArgs.interactorObject is not PokeInteractor ||
                     Time.time - lastClickTime < ReClickDelayTime)
+                ***/
+                if (Time.time - lastClickTime < ReClickDelayTime)
                 {
                     return;
                 }
@@ -99,7 +107,7 @@ namespace MRTKExtensions.Keyboard
 
         private void SetColorOnHoverPoke(IXRHoverInteractor interaction, Color color)
         {
-            if (interaction is PokeInteractor)
+            if (interaction is PokeInteractor || interaction is MRTKRayInteractor)
             {
                 image.color = color;
             }

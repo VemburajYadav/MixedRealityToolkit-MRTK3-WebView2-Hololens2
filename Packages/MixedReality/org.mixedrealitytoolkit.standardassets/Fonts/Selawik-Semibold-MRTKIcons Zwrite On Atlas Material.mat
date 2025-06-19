@@ -9,7 +9,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Selawik-Semibold-MRTKIcons Zwrite On Atlas Material
   m_Shader: {fileID: 4800000, guid: c5f3f59b19556b3479f929a84f25f776, type: 3}
-  m_ValidKeywords: []
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _UI_CLIP_RECT_ROUNDED
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -17,6 +20,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -54,6 +58,7 @@ Material:
     - _CullMode: 0
     - _Diffuse: 0.5
     - _DstBlend: 10
+    - _DstBlendAlpha: 1
     - _FaceDilate: 0
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
@@ -80,6 +85,7 @@ Material:
     - _Sharpness: 0
     - _SpecularPower: 2
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
