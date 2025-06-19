@@ -30,6 +30,8 @@ Focuses specifically on the two available modes of clicking:
 - Far-ray + pinch
 - Near-poke (touch)
 
+- [![Click Interaction ShowcaseR](Thumbnails/thumbnail2.png)](https://drive.google.com/file/d/1o3e3pL023m-fjYp_Nt9fvkyLrq3XOJK9/view?usp=sharing)  
+
 ---
 
 ## 🛠️ How to Use
