@@ -49,7 +49,7 @@ This scene includes all components wired up and ready to test.
 
 #### 1. Add WebView2 to the Scene
 
-Follow the official WebView2 Unity integration guide to:
+Follow the official [WebView2 Unity integration guide](https://learn.microsoft.com/en-us/microsoft-edge/webview2/get-started/hololens2) to:
 
 - Add the **WebView2 prefab** to your scene
 - Attach `WebViewBrowser.cs` to the prefab
