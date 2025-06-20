@@ -85,7 +85,7 @@ To enable advanced interactions, add the following components to the WebView Gam
 
 #### 3. Add `PressableButton.cs`
 
-To register hand gestures as interactions, ensure your WebView GameObject also includes:
+To register the WebView as an interactable element, ensure your WebView GameObject also includes:
 
 - `PressableButton.cs` (MRTK3 component)
 
