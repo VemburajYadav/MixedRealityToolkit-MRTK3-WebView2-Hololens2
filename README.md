@@ -12,7 +12,7 @@ While the default WebView2 prefab supports basic browser controls (like back, fo
 - 🖱️ Click webpage content using:
   - Far-ray pinch gesture
   - Near-poke (touch) interaction
-- 📜 Scroll webpage using far-ray swipe gesture (hand motion up/down)
+- 📜 Scroll webpage using far-ray swipe gesture (hand motion up/down), with scrolling distance **dynamically adjusted** based on how far your hand moves.
 - 🧩 Plug-and-play Unity components (scripts)
 - ✅ Compatible with MRTK3 and OpenXR-based hand tracking
 - 🎮 Demo scene included: `WebviewDemo.unity`
@@ -94,11 +94,12 @@ To register hand gestures as interactions, ensure your WebView GameObject also i
 
 ## ✋ Interaction Overview
 
-| Action          | Gesture                   | Interaction Type     |
-|------------------|----------------------------|------------------------|
-| Click webpage    | Far-ray + pinch gesture    | Far interaction        |
-| Click webpage    | Touch / near-poke          | Near interaction       |
-| Scroll page      | Hand swipe (up/down)       | Far-ray gesture        |
+| Action          | Gesture                        | Interaction Type     | Notes                                            |
+|------------------|----------------------------------|------------------------|--------------------------------------------------|
+| Click webpage    | Far-ray + pinch gesture         | Far interaction        | Precise element selection from a distance       |
+| Click webpage    | Touch / near-poke               | Near interaction       | Tap-like direct interaction                     |
+| Scroll page      | Hand swipe (up/down)            | Far-ray gesture        | **Scroll distance scales with hand movement**   |
+
 
 These interactions are designed with natural HoloLens2 usage in mind and are fully compatible with **hand-tracking** via **OpenXR** and **MRTK3**'s XR Interactables.
 
