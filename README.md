@@ -1,4 +1,4 @@
-﻿# ✨ MixedRealityToolkit-MRTK3-WebView2-Hololens2
+﻿# ✨ Advanced WebView2 Interactions for HoloLens 2 in Unity
 
 This Unity project demonstrates advanced hand gesture-based interactions for navigating webpages in **WebView2**, designed specifically for **HoloLens2** using **MRTK3** and **XR Interaction Toolkit**. Also, refer to the officiali documentation on [Getting started with WebView2 in HoloLens 2 Unity apps](https://learn.microsoft.com/en-us/microsoft-edge/webview2/get-started/hololens2) 
 
